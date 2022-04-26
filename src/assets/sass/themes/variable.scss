@@ -1,0 +1,24 @@
+$c1-200:#3c79f2;
+$c1-500:#0a3984;
+$c1-700:#020a17;
+
+$text-xs:10px;
+$text-sm:14px;
+$text-base:16px;
+$text-md:18px;
+$text-lg:24px;
+$text-xl:26px;
+$text-2xl:28px;
+$text-3xl:30px;
+
+$text-light:300;
+$text-normal:400;
+$text-semiBold:600;
+$text-bold:700;
+
+
+@mixin text($fs:$text-base,$fw:$text-normal,$c:$c1-500) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+}
